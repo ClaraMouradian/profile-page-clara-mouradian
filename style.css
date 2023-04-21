@@ -1,0 +1,174 @@
+/* Write some CSS below : */
+
+/* Design General */
+
+body {
+    font-size: 18px;
+    color: #4D5470;
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+
+h1 {
+    color: #D14D72;
+    font-weight: 900;
+    font-size: 32px;
+
+}
+
+h2 {
+    font-weight: 600;
+    color: #FFB4B4;
+    font-size: 28px;
+}
+
+h1,
+h2 {
+    font-family: 'Dosis', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-white {
+    background-color: #FDF4F5;
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 10px 100px rgba(209, 77, 114, 0.5);
+}
+
+#introduction {
+    padding-top: 20px;
+}
+
+#selflove {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#clarins {
+    padding-top: 10px;
+}
+
+#moodboard {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 700px;
+    margin: 10px auto;
+}
+
+#clara-picture {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#clarins-picture {
+    width: 150px;
+}
+
+#selflove1 {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#moodboard1 {
+    width: 150px;
+}
+
+#moodboard2 {
+    width: 150px;
+}
+
+#moodboard3 {
+    width: 150px;
+}
+
+.btn-pink {
+    background-color: #D14D72;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.btn-pink:hover {
+    background-color: #FFB4B4;
+}
+
+#intro {
+    margin-bottom: 50px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: grey;
+    letter-spacing: 30px;
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+.list-inline img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.list-inline img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.card-white img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+/* Breaking points */
+@media (max-width: 960px) {
+    .container {
+        width: 900px;
+    }
+
+    .cards-inline {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 680px;
+    }
+
+    .cards-inline {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 480px;
+    }
+
+    .cards-inline {
+        grid-template-columns: 1fr;
+    }
+}
